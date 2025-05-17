@@ -21,15 +21,13 @@ while True:
     else:
         print("Please type a number next time.")
         continue 
-
     if user_guess == random_number:
         print("You got it!")
         break
+    elif user_guess > random_number:
+        print("You were above the number!")
     else:
-        if user_guess > random_number:
-             print("You were above the number!")
-        else:
-             print("You were below the number!")
+        print("You were below the number!")
 
 # print("you got it in ", guesses , "guesses")
 # or 

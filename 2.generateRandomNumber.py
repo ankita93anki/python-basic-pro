@@ -1,0 +1,10 @@
+import random 
+r = random.randrange(-5, 11)
+print(r)
+print("-----------------------------------")
+r2 = random.randrange(11)
+print("-----------------------------------")
+i = random.randint(-5,11)
+print(i)
+print("-----------------------------------")
+i2 = random.randint(11)
